@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project 1 Portofolio</title>
+    <link rel="stylesheet" href="./src/output.css">
+   
+  </head>
+  <body class="font-sans text-gray-800 leading-relaxed bg-gray-100">
+    <header class="bg-gray-800 text-white p-4 border-b-4 border-blue-500">
+       <div class="container mask-x-to-fuchsia-50 flex justify-between items-center">
+        <h1 class="text-2xl md:text-3xl font-bold text-white">Okki Darmawan</h1>
+        <nav>
+            <ul class="flex space-x-4">
+                <li><a href="#home" class="text-white hover:text-blue-300 transition duration-300">Home</a></li>
+                <li><a href="#about" class="text-white hover:text-blue-300 transition duration-300">About</a></li>
+                <li><a href="#project" class="text-white hover:text-blue-300 transition duration-300">Project</a></li>
+                <li><a href="#contact" class="text-white hover:text-blue-300 transition duration-300">Contact</a></li>
+            </ul>
+        </nav>
+       </div>
+    </header>
+
+    <section id="home" class="hero bg-gray-700 text-white min-h-screen flex items-center justify-center text-center ">
+        <div>
+            <img src="asset/itsMe.jpg" alt="Foto Profil" class="profile-img rounded-full w-40 h-40 object-cover border-4 border-white mx-auto mb-6 shadow-lg ">
+            <h2 class="text-4xl md:text-5xl font-extrabold mb-4 ">Haloo, Nama Saya Okki Darmawan</h2>
+            <p class="text-lg md:text-xl max-w-2xl mx-auto">Seorang <span class="text-blue-300 ">Fullstack Developer</span> </p>
+        </div>
+    </section>
+
+    <section id="about" class="about py-16 px-4 border-b border-gray-300 bg-white ">
+        <div class="container mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-8 ">About Me</h2>
+            <p class="text-lg text-center max-w-3xl mx-auto ">Saya seorang mahasiswa semester 4 di jurusan teknologi informasi, berkuliah di Universitas Bangka Belitung</p>
+        </div>
+    </section>
+
+    <section id="project" class="project py-16 px-4 border-b border-gray-300 bg-gray-50 ">
+        <div class="container mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-8">My Project</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-center ">
+                <div class="project-item bg-white border border-gray-200 p-6 rounded-lg shadow-md hover:shadow-xl transform hover:-translate-y-2 transition duration-300 text-center">
+                    <h3 class="text-xl font-semibold mb-3 text-blue-600 ">Project 1: Lapak UBB</h3>
+                    <p class="text-blue-700 mb-4 ">Website tentang penjualan secara online pada mahasiswa UBB</p>
+                    <a href="#" target="_blank" class="inline-block bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 transition duration-300 ">Lihak Proyek</a>
+                </div>
+                <div class="project-item bg-white border border-gray-200 p-6 rounded-lg shadow-md hover:shadow-xl transform hover:-translate-y-2 transition duration-300 text-center">
+                    <h3 class="text-xl font-semibold mb-3 text-blue-600 ">Project 2: Kantor Desa Serdang</h3>
+                    <p class="text-blue-700 mb-4 ">Website ini merupakan website yang dibuat untuk desa serdang</p>
+                    <a href="#" target="_blank" class="inline-block bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 transition duration-300 ">Lihak Proyek</a>
+                </div>
+                <div class="project-item bg-white border border-gray-200 p-6 rounded-lg shadow-md hover:shadow-xl transform hover:-translate-y-2 transition duration-300 text-center">
+                    <h3 class="text-xl font-semibold mb-3 text-blue-600 ">Project 3: Portofolio</h3>
+                    <p class="text-blue-700 mb-4 ">Website ini adalah portofolio pribadi saya</p>
+                    <a href="#" target="_blank" class="inline-block bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 transition duration-300 ">Lihak Proyek</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact py-16 px-4 border-b border-gray-300 bg-white ">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-8">Contact Me</h2>
+            <p class="text-lg mb-4 ">Kamu bisa menghubungiku via E-mail di:<a href="mailto:anonymous17501@gmail.com"></a></p>
+            <p class="text-lg mb-4 ">Atau temukan saya di: </p>
+            <ul class="flex justify-center space-x-6 mt-4 ">
+                <li><a href="" target="_blank" class="text-blue-500 hover:text-blue-700 text-2xl"><i class="fab fa-linkedin "></i> Linkedin</a></li>
+                <li><a href="" target="_blank" class="text-blue-500 hover:text-blue-700 text-2xl"><i class="fab fa-github"></i> Instagram</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white py-6 text-center">
+        <div class="container mx-auto">
+            <p>&copy; <span id="current-year"></span> Okki Darmawan. All Right Reserved</p>
+        </div>
+    </footer>
+    <script src="./js/footer_year.js"></script>i
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  </body>
+</html>
